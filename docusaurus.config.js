@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/vloxy-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/channelIcon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -57,8 +57,9 @@ const config = {
       navbar: {
         title: 'Vloxy Engine',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'CodeBlaze Logo',
+          src: 'img/logo_light.svg',
+          srcDark: 'img/logo_dark.svg'
         },
         items: [
           {
