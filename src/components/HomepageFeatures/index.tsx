@@ -14,28 +14,27 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Vloxy Engine is designed to get you up and running as fast as possible
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Performant',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Vloxy Engine utilized the new unity Job System and Burst compilation to
+        achive maximum performance possible.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Extensible',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Vloxy Engine provides and extensive API with both high and low level control
+        and as always you can dive to the source level to get full control
       </>
     ),
   },
