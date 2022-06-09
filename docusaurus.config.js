@@ -64,14 +64,14 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'introduction',
             position: 'left',
             label: 'Docs',
           },
           {
             to: '/blog', 
             position: 'left',
-            label: 'Guides', 
+            label: 'Devlogs',
           },
           {
             href: 'https://github.com/BLaZeKiLL/VloxyEngine',
@@ -84,14 +84,14 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Help',
+            title: 'Explore',
             items: [
               {
                 label: 'Docs',
-                to: '/docs/intro',
+                to: '/docs/introduction',
               },
               {
-                label: 'Guides',
+                label: 'Devlogs',
                 to: '/blog',
               },
             ],
