@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkvloxy_docs=self.webpackChunkvloxy_docs||[]).push([[7046],{4452:function(o){o.exports=JSON.parse('{"label":"facebook","permalink":"/vloxy-docs/blog/tags/facebook","allTagsPath":"/vloxy-docs/blog/tags","count":1}')}}]);
