@@ -4,15 +4,57 @@
         <title>Vloxy Engine Blog</title>
         <link>https://blazekill.github.io/vloxy-docs/blog</link>
         <description>Vloxy Engine Blog</description>
-        <lastBuildDate>Thu, 09 Jun 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Dec 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[Job System & Burst Compiler]]></title>
+            <link>https://blazekill.github.io/vloxy-docs/blog/jobs</link>
+            <guid>jobs</guid>
+            <pubDate>Thu, 22 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The big refactoring effort finally paid off, with the move from job system from UniTask not only was a dependency removed]]></description>
+            <content:encoded><![CDATA[<p>The big refactoring effort finally paid off, with the move from job system from UniTask not only was a dependency removed
+but performance improvements of upto <strong>10 times</strong> were achieved.</p><div class="container_jWnl"><iframe width="100%" height="100%" allowfullscreen="" src="https://www.youtube.com/embed/ip-QVUyjYw0" class="frame_L2ww" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>]]></content:encoded>
+            <category>vloxy</category>
+            <category>performance</category>
+        </item>
+        <item>
+            <title><![CDATA[Baked Ambient Occlusion]]></title>
+            <link>https://blazekill.github.io/vloxy-docs/blog/ao</link>
+            <guid>ao</guid>
+            <pubDate>Mon, 10 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[With my first attempt at writing shaders, see how baked ambient occlusion adds a flare to the vloxy world. later on these]]></description>
+            <content:encoded><![CDATA[<p>With my first attempt at writing shaders, see how baked ambient occlusion adds a flare to the vloxy world. later on these
+shaders were translated to shader graph for URP support</p><div class="container_jWnl"><iframe width="100%" height="100%" allowfullscreen="" src="https://www.youtube.com/embed/uZ4kfcW4LwE" class="frame_L2ww" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>]]></content:encoded>
+            <category>vloxy</category>
+            <category>graphics</category>
+        </item>
+        <item>
+            <title><![CDATA[Noise & Compression]]></title>
+            <link>https://blazekill.github.io/vloxy-docs/blog/noise</link>
+            <guid>noise</guid>
+            <pubDate>Thu, 25 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[With much-needed compression in place using Interval Tress, FastNoiseLite was integrated to generate some interesting height maps]]></description>
+            <content:encoded><![CDATA[<p>With much-needed compression in place using Interval Tress, FastNoiseLite was integrated to generate some interesting height maps</p><div class="container_jWnl"><iframe width="100%" height="100%" allowfullscreen="" src="https://www.youtube.com/embed/a4wjYq3jN4g" class="frame_L2ww" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>]]></content:encoded>
+            <category>vloxy</category>
+            <category>noise</category>
+            <category>compression</category>
+        </item>
+        <item>
+            <title><![CDATA[Beginning]]></title>
+            <link>https://blazekill.github.io/vloxy-docs/blog/beginning</link>
+            <guid>beginning</guid>
+            <pubDate>Sun, 03 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[See how the project started]]></description>
+            <content:encoded><![CDATA[<p>See how the project started</p><div class="container_jWnl"><iframe width="100%" height="100%" allowfullscreen="" src="https://www.youtube.com/embed/I5pKr6fnne0" class="frame_L2ww" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>]]></content:encoded>
+            <category>vloxy</category>
+        </item>
+        <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://blazekill.github.io/vloxy-docs/blog/welcome</link>
             <guid>welcome</guid>
-            <pubDate>Thu, 09 Jun 2022 00:00:00 GMT</pubDate>
+            <pubDate>Wed, 28 Oct 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[I try my best to capture the development of vloxy engine, stay tuned here for the latest updates]]></description>
             <content:encoded><![CDATA[<p>I try my best to capture the development of vloxy engine, stay tuned here for the latest updates</p>]]></content:encoded>
             <category>vloxy</category>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvloxy_docs=self.webpackChunkvloxy_docs||[]).push([[4458],{89:function(s){s.exports=JSON.parse('{"label":"compression","permalink":"/vloxy-docs/blog/tags/compression","allTagsPath":"/vloxy-docs/blog/tags","count":1}')}}]);

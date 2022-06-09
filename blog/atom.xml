@@ -2,16 +2,74 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blazekill.github.io/vloxy-docs/blog</id>
     <title>Vloxy Engine Blog</title>
-    <updated>2022-06-09T00:00:00.000Z</updated>
+    <updated>2022-12-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blazekill.github.io/vloxy-docs/blog"/>
     <subtitle>Vloxy Engine Blog</subtitle>
     <icon>https://blazekill.github.io/vloxy-docs/img/channelIcon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[Job System & Burst Compiler]]></title>
+        <id>jobs</id>
+        <link href="https://blazekill.github.io/vloxy-docs/blog/jobs"/>
+        <updated>2022-12-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The big refactoring effort finally paid off, with the move from job system from UniTask not only was a dependency removed]]></summary>
+        <content type="html"><![CDATA[<p>The big refactoring effort finally paid off, with the move from job system from UniTask not only was a dependency removed
+but performance improvements of upto <strong>10 times</strong> were achieved.</p><div class="container_jWnl"><iframe width="100%" height="100%" allowfullscreen="" src="https://www.youtube.com/embed/ip-QVUyjYw0" class="frame_L2ww" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>]]></content>
+        <author>
+            <name>CodeBlaze</name>
+            <uri>https://github.com/BLaZeKiLL</uri>
+        </author>
+        <category label="vloxy" term="vloxy"/>
+        <category label="performance" term="performance"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Baked Ambient Occlusion]]></title>
+        <id>ao</id>
+        <link href="https://blazekill.github.io/vloxy-docs/blog/ao"/>
+        <updated>2021-05-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With my first attempt at writing shaders, see how baked ambient occlusion adds a flare to the vloxy world. later on these]]></summary>
+        <content type="html"><![CDATA[<p>With my first attempt at writing shaders, see how baked ambient occlusion adds a flare to the vloxy world. later on these
+shaders were translated to shader graph for URP support</p><div class="container_jWnl"><iframe width="100%" height="100%" allowfullscreen="" src="https://www.youtube.com/embed/uZ4kfcW4LwE" class="frame_L2ww" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>]]></content>
+        <author>
+            <name>CodeBlaze</name>
+            <uri>https://github.com/BLaZeKiLL</uri>
+        </author>
+        <category label="vloxy" term="vloxy"/>
+        <category label="graphics" term="graphics"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Noise & Compression]]></title>
+        <id>noise</id>
+        <link href="https://blazekill.github.io/vloxy-docs/blog/noise"/>
+        <updated>2021-02-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With much-needed compression in place using Interval Tress, FastNoiseLite was integrated to generate some interesting height maps]]></summary>
+        <content type="html"><![CDATA[<p>With much-needed compression in place using Interval Tress, FastNoiseLite was integrated to generate some interesting height maps</p><div class="container_jWnl"><iframe width="100%" height="100%" allowfullscreen="" src="https://www.youtube.com/embed/a4wjYq3jN4g" class="frame_L2ww" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>]]></content>
+        <author>
+            <name>CodeBlaze</name>
+            <uri>https://github.com/BLaZeKiLL</uri>
+        </author>
+        <category label="vloxy" term="vloxy"/>
+        <category label="noise" term="noise"/>
+        <category label="compression" term="compression"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beginning]]></title>
+        <id>beginning</id>
+        <link href="https://blazekill.github.io/vloxy-docs/blog/beginning"/>
+        <updated>2021-01-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[See how the project started]]></summary>
+        <content type="html"><![CDATA[<p>See how the project started</p><div class="container_jWnl"><iframe width="100%" height="100%" allowfullscreen="" src="https://www.youtube.com/embed/I5pKr6fnne0" class="frame_L2ww" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>]]></content>
+        <author>
+            <name>CodeBlaze</name>
+            <uri>https://github.com/BLaZeKiLL</uri>
+        </author>
+        <category label="vloxy" term="vloxy"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
         <link href="https://blazekill.github.io/vloxy-docs/blog/welcome"/>
-        <updated>2022-06-09T00:00:00.000Z</updated>
+        <updated>2020-10-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[I try my best to capture the development of vloxy engine, stay tuned here for the latest updates]]></summary>
         <content type="html"><![CDATA[<p>I try my best to capture the development of vloxy engine, stay tuned here for the latest updates</p>]]></content>
         <author>
