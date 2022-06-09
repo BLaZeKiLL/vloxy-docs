@@ -1,5 +1,6 @@
 import React from 'react';
 
+import clsx from 'clsx';
 import styles from './styles.module.css';
 
 const Video = (props: { src: string; }) => (
@@ -7,7 +8,6 @@ const Video = (props: { src: string; }) => (
     <iframe
       width="100%"
       height="100%"
-      frameBorder="0" 
       allowFullScreen
       src={props.src} 
       className={styles.frame}
