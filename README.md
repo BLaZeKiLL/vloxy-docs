@@ -1,16 +1,22 @@
-# Vloxy Engine
+<p align="center">
+  <img src=".github/assets/vloxy_logo.svg" width=256>
+  <h1 align="center">Vloxy Engine</h1>
+</p>
+
 Performance oriented voxel engine for unity.
 
-This repository holds the documentation, source code for the engine can be found [here](https://github.com/BLaZeKiLL/VloxyEngine)
+> This repository holds the documentation, source code for the engine can be found [here](https://github.com/BLaZeKiLL/VloxyEngine)
 
 ## Goals
-- Extensible Api to create any type of voxel worlds
-- Jobs & Burst
-- Serialization & Streaming
-- Infinite generation
-- Complex Noise Generation System
-- Physics & Fluids
-- Networking
+| Description                     | Done |
+|---------------------------------|------|
+| Jobs & Burst                    | ✔    |
+| Extensible Api                  | ✔    |
+| Serialization                   |      |
+| Streaming & Infinite generation | ✔    |
+| Noise Generation System         |      |
+| Physics & Fluids                |      |
+| Networking                      |      |
 
 ## Docs Website
 

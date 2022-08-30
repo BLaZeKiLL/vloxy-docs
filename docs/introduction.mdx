@@ -1,13 +1,31 @@
 ---
 sidebar_position: 1
+hide_title: true
 ---
 
-# Introduction
+import Title from '@site/src/components/Title';
 
-**Vloxy Engine** focuses on performant mesh generation from voxel data. You provide the data the engine gives of meshes.
+<div className="container">
+  <div className="row">
+    <Title size={128}/>
+  </div>
+</div>
+
+**Vloxy Engine** focuses on performant mesh generation from voxel data. In one sentance, you provide the data the engine gives of meshes.
+
+## Current Goals
+| Description                     | Done |
+|---------------------------------|------|
+| Jobs & Burst                    | ✔    |
+| Extensible Api                  | ✔    |
+| Serialization                   |      |
+| Streaming & Infinite generation | ✔    |
+| Noise Generation System         |      |
+| Physics & Fluids                |      |
+| Networking                      |      |
 
 The engine is extensible using 2 paradigms. OOP based overrieds are avaliable for high level functionality with full controls.
-as well as restrictive function overrieds for performance intensive code.
+as well as restrictive, functional overrieds for performance intensive code.
 
 ## Getting Started
 
@@ -37,7 +55,3 @@ Dependencies :-
 
 Ideally you would be extending the **VloxyWorld** class but to get up and running you can drag
 any of the example world to the scene
-
-## Start your site
-
-Run the game
