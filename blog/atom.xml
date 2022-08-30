@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blazekill.github.io/vloxy-docs/blog"/>
     <subtitle>Vloxy Engine Blog</subtitle>
-    <icon>https://blazekill.github.io/vloxy-docs/img/channelIcon.ico</icon>
+    <icon>https://blazekill.github.io/vloxy-docs/img/vloxyengine.ico</icon>
     <entry>
         <title type="html"><![CDATA[Job System & Burst Compiler]]></title>
         <id>jobs</id>
