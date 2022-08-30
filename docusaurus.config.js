@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/vloxy-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/channelIcon.ico',
+  favicon: 'img/vloxyengine.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

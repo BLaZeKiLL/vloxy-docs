@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: var(--ifm-leading);
+}
+
+.title {
+  margin-bottom: 0;
+  text-align: center;
+}

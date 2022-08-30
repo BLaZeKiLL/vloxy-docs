@@ -25,3 +25,14 @@
   align-items: center;
   justify-content: center;
 }
+
+.logo {
+  height: 150px;
+  width: 150px;
+}
+
+.vloxy_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
