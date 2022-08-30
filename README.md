@@ -3,6 +3,18 @@
   <h1 align="center">Vloxy Engine</h1>
 </p>
 
+<p align="center">
+  <a href="https://github.com/BLaZeKiLL/VloxyEngine/actions">
+    <img alt="Build Status" src="https://img.shields.io/github/workflow/status/BLaZeKiLL/VloxyEngine/Build?style=flat-square">
+  </a>
+  <a href="https://blazekill.github.io/vloxy-docs/">
+    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/BLaZeKiLL/vloxy-docs/Deploy%20to%20GitHub%20Pages?label=docs">
+  </a>
+  <a>
+    <img alt="GitHub" src="https://img.shields.io/github/license/BLaZeKiLL/VloxyEngine">
+  </a>
+</p>
+
 Performance oriented voxel engine for unity.
 
 > This repository holds the documentation, source code for the engine can be found [here](https://github.com/BLaZeKiLL/VloxyEngine)
