@@ -4,13 +4,16 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/BLaZeKiLL/VloxyEngine/releases">
+    <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/BLaZeKiLL/VloxyEngine">
+  </a>
   <a href="https://github.com/BLaZeKiLL/VloxyEngine/actions">
-    <img alt="Build Status" src="https://img.shields.io/github/workflow/status/BLaZeKiLL/VloxyEngine/Build?style=flat-square">
+    <img alt="Build Status" src="https://img.shields.io/github/workflow/status/BLaZeKiLL/VloxyEngine/Build">
   </a>
   <a href="https://blazekill.github.io/vloxy-docs/">
     <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/BLaZeKiLL/vloxy-docs/Deploy%20to%20GitHub%20Pages?label=docs">
   </a>
-  <a>
+  <a href="https://github.com/BLaZeKiLL/VloxyEngine/blob/main/LICENSE.md">
     <img alt="GitHub" src="https://img.shields.io/github/license/BLaZeKiLL/VloxyEngine">
   </a>
 </p>
