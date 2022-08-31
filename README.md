@@ -16,11 +16,16 @@
   <a href="https://github.com/BLaZeKiLL/VloxyEngine/blob/main/LICENSE.md">
     <img alt="GitHub" src="https://img.shields.io/github/license/BLaZeKiLL/VloxyEngine">
   </a>
+  <a href="https://www.youtube.com/c/CodeBlazeX">
+    <img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UC_qfPIYfXOvg0SDAc8Z68WA?label=CodeBlaze&style=social">
+  </a>
 </p>
 
 Performance oriented voxel engine for unity.
 
 > This repository holds the documentation, source code for the engine can be found [here](https://github.com/BLaZeKiLL/VloxyEngine)
+
+<img src=".github/assets/vloxy_engine.png">
 
 ## Goals
 | Description                     | Done |
