@@ -24,14 +24,15 @@ Performance oriented voxel engine for unity.
 
 ## Goals
 | Description                     | Done |
-|---------------------------------|------|
-| Jobs & Burst                    | ✔    |
-| Extensible Api                  | ✔    |
+|---------------------------------|:----:|
+| Jobs & Burst                    |  ✔   |
+| Extensible Api                  |  ✔   |
 | Serialization                   |      |
-| Streaming & Infinite generation | ✔    |
+| Streaming & Infinite generation |  ✔   |
 | Noise Generation System         |      |
 | Physics & Fluids                |      |
 | Networking                      |      |
+
 
 ## Docs Website
 
