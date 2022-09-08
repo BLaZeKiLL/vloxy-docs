@@ -4,24 +4,17 @@ sidebar_position: 2
 
 # Noise
 
-Current Noise Generation API is very primitive, The project started by using **[Auburn's FastNoiseLite](https://github.com/Auburn/FastNoiseLite)**
-which was later replaces by **Unity.Mathematics** and it's **[Noise API](https://docs.unity3d.com/Packages/com.unity.mathematics@1.2/api/Unity.Mathematics.noise.html)**
+Current Noise Generation API is very primitive, Built using **Unity.Mathematics** and it's **[Noise API](https://docs.unity3d.com/Packages/com.unity.mathematics@1.2/api/Unity.Mathematics.noise.html)**
 for Burst support.
 
-To simplify this migration noise extension capabilities were removed partly because of **structs** limitations also.
 Currently, the noise generator is restricted too 2D generation using Simplex Noise with few settings exposed like :-
-- Height
-- Seed
-- Scale
-- Persistence
-- Lacunarity
-- Octaves
+
+- **Height** - Max hieght of the height map, this value is not a height limit as the engine supports infinite generation in all directions.
+this is just the limit for 2D height map generation.
+- **Seed** - Offset used to shift the noise textures internally, same vaules will provide the same result
+- **Scale** - zoom level or distance between adjecent sample points, higher the value higher the variation
+- **Octaves** - Number of layers of noise maps to be applied over each other, Higher value increase computation cost but provide richer result
+- **Persistence** - Effect of each subsiquent octave.
+- **Lacunarity** - Frequency shift for each subsiquent octave.
 
 A comprehensive noise generation system is part of the plan for Vloxy Engine and work on it will begin post the first release
-
-:::caution API Changes
-
-Vloxy Engine is under development and API has not been finalized, docs may lag behind and API is subject to change until
-the first stable release
-
-:::

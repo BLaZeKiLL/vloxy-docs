@@ -4,20 +4,22 @@ sidebar_position: 1
 
 # Overview
 
-:::caution API Changes
+Vloxy Engine provides a **Scriptable Objects** which control the different aspects of the engine.
 
-Vloxy Engine is under development and API has not been finalized, docs may lag behind and API is subject to change until
-the first stable release
+Noise settings is a seprate **Scriptable Objects** which is refrenced by the main settings scriptable object.
 
+## Focus
+**Focus Parameter** should be set as the transform around which the world should be stream on the world component
+
+:::tip
+You can leave this as null for fixed size worlds
 :::
-
-Vloxy Engine provides a hierarchy of **Scriptable Objects** which control the different aspects of the engine.
 
 ## Configuration
 
 The configuration can be broken down in the following top level sections
 
-- Noise Settings
-- Chunk Settings
-- Renderer Settings
-- Scheduler Settings
+- **[Noise Settings](./noise.mdx)**
+- **[Chunk Settings](./chunk.mdx)**
+- **[Renderer Settings](./renderer.mdx)**
+- **[Scheduler Settings](./scheduler.mdx)**

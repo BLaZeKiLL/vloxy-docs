@@ -4,7 +4,11 @@ sidebar_position: 3
 
 # Chunk
 
-**Chunk Size** is fully changeable, though I test everything at 32x32x32 but in-theory any size should work.
+Chunks form the basic building blocks of vloxy engine.
+Vloxy Engine dosen't have a concept of Chunk Columns and aims to support infinite chunks in all 3 axis.
+
+Following options are **configurable**
+- **Chunk Size** - size of each chunk is fully configurable, though I test everything at 32x32x32 but in-theory any size should work.
 
 :::danger
 
@@ -12,11 +16,10 @@ Don't make the chunk too big as there is a limitation on the number of vertices 
 
 :::
 
-Vloxy Engine dosen't have a concept of Chunk Columns and aims to support infinite chunks in all 3 axis.
+- **Draw Distance** - Number of visible chunks around the focus transform (Player)
 
-:::caution API Changes
-
-Vloxy Engine is under development and API has not been finalized, docs may lag behind and API is subject to change until
-the first stable release
-
-:::
+Following options are **computed at runtime**
+- **Load Distance** - Number of chunks around the player to keep in memory.
+```csharp
+Settings.Chunk.LoadDistance = Settings.Chunk.DrawDistance + 2;
+```

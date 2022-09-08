@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Introduction
 hide_title: true
 ---
 
@@ -15,6 +16,9 @@ import Title from '@site/src/components/Title';
   <a className="margin-horiz--xs" href="https://github.com/BLaZeKiLL/VloxyEngine/releases">
     <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/BLaZeKiLL/VloxyEngine" />
   </a>
+  <a href="https://openupm.com/packages/io.codeblaze.vloxyengine/">
+    <img alt="OpenUPM" src="https://img.shields.io/npm/v/io.codeblaze.vloxyengine?label=openupm&amp;registry_uri=https://package.openupm.com" />
+  </a>
   <a className="margin-horiz--xs" href="https://github.com/BLaZeKiLL/VloxyEngine/actions">
     <img alt="Build Status" src="https://img.shields.io/github/workflow/status/BLaZeKiLL/VloxyEngine/Build" />
   </a>
@@ -29,7 +33,7 @@ import Title from '@site/src/components/Title';
   </a>
 </p>
 
-**Vloxy Engine** focuses on performant mesh generation from voxel data. In one sentance, you provide the data the engine gives of meshes.
+**Vloxy Engine** focuses on performant mesh generation from voxel data. In one sentence, you provide the data the engine gives of meshes.
 
 <img className="vloxy-border-radius" src={require('@site/static/img/vloxy_engine.png').default} />
 
@@ -44,35 +48,15 @@ import Title from '@site/src/components/Title';
 | Physics & Fluids                |      |
 | Networking                      |      |
 
+The engine is extensible using 2 paradigms. OOP based overrides are available for high level functionality with full controls.
+as well as restrictive, functional overrides for performance intensive code.
 
-The engine is extensible using 2 paradigms. OOP based overrieds are avaliable for high level functionality with full controls.
-as well as restrictive, functional overrieds for performance intensive code.
+## Demos
+Along with package releases a demo application showcasing the capabilities is also released for the following platforms
+- Windows
+- Android
 
-## Getting Started
+Head over to the [relase page](https://github.com/BLaZeKiLL/VloxyEngine/releases) to check them out
 
-Get started by **cloning the [source code](https://github.com/BLaZeKiLL/VloxyEngine)**.
-
-:::tip Installation Method
-
-While support for UPM is planned it is still recommended to add vloxy engine directly too the project.
-you could add it as a git submodule.
-
-With source access you would get the maximum control
-
-:::
-
-For additional options and detailed setup check **[here](category/installation)**
-
-### What you'll need
-
-Currently Tested for Unity 2021.3 LTS and URP.
-
-Dependencies :-
-- [Unity Maths](https://docs.unity3d.com/Packages/com.unity.mathematics@1.2/manual/index.html)
-- [Unity Burst](https://docs.unity3d.com/Packages/com.unity.burst@1.7/manual/index.html)
-- [Unity Collections](https://docs.unity3d.com/Packages/com.unity.collections@1.2/manual/index.html)
-
-## Configuring
-
-Ideally you would be extending the **VloxyWorld** class but to get up and running you can drag
-any of the example world to the scene
+## Dev-logs
+I'll try to create dev-logs for the major features in development as well as some tutorials which you can find on my [YouTube](https://www.youtube.com/c/CodeBlazeX) or on the Vloxy Engine [blog](https://blazekill.github.io/vloxy-docs/blog)

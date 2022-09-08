@@ -7,7 +7,8 @@ sidebar_position: 4
 Renderer Settings are divided in two, Mesh related settings are controlled via the scriptable object but a bulk of it is
 controlled by the material, tough the material is passed via the scriptable object.
 
-These settings allow you to control the baked **Ambient Occlusion** curve and enable shadows for the chunk renderer.
+- **Material** - Main material to be used by chunk meshes
+- **Cast Shadows** - Enables shadows for chunk meshes
 
 :::note
 
@@ -15,9 +16,17 @@ Shadows can cause some artifacts which can be fixed by fiddling with projects li
 
 :::
 
-:::caution API Changes
+## Material
+Vloxy Engine comes with shaders for **URP** and **Built-In** render pipelines.
 
-Vloxy Engine is under development and API has not been finalized, docs may lag behind and API is subject to change until
-the first stable release
+:::caution Compatibility
+
+Shaders for the **Built-In** pipeline require some tweaks to support textures
 
 :::
+
+2 variants of the shaders are provided
+- **Vertex Color** - If you want just RGB colored blocks
+- **Textured** - If you want textured blocks using texture arrays
+
+both shaderss allow you to control the baked **Ambient Occlusion** curve and it's intensity.

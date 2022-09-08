@@ -1,0 +1,90 @@
+---
+sidebar_position: 3
+---
+
+# World
+**VloxyWorld** behaviour defines the entry-point to voxel engine. It is responsible for initializing and updating the engine state.
+
+Extending the **VloxyWorld** class is the first thing you will need to do in order to customize the behaviour of the engine.
+
+## Members
+**VloxyWorld** exposes the following protected members.
+
+```csharp
+protected VloxySettings Settings;
+```
+
+Reference to the VloxySettings scriptable object.
+
+```csharp
+protected int3 FocusChunkCoord;
+```
+
+Current chunk coordinates corresponding to the focus coordinates.
+
+```csharp
+protected NoiseProfile NoiseProfile;
+```
+
+Noise Profile is used to generate chunk data depending on the noise configuration.
+
+```csharp
+protected ChunkManager ChunkManager;
+```
+
+Chunk Manager stores currently loaded chunks and decides what chunks to be streamed and meshed.
+
+## Overrides
+**VloxyWorld** exposes the following virtual methods.
+
+```csharp
+protected virtual VloxyProvider Provider() => new();
+```
+
+The provider is pretty integral to the engine, we'll go over its details later but on a high level :-
+
+- Overriding this method would allow you to switch out the provider with your custom implementation of the **VloxyProvider**.
+- **VloxyProvider** follows the inversion of control pattern, loosely like dependency injection.
+It is the one place where all dependencies and components of the engine are configured.
+- Custom **VloxyProvider** allow you to change components of the engine with your own implementation controlling the high level behaviour.
+- Custom **VloxyProvider** also allows you to define burst function overrides controlling the low level behaviour.
+
+### Lifecycle Overrides
+
+```csharp
+protected virtual void WorldConfigure() { }
+```
+
+WorldConfigure is called right after runtime settings are computed. This lifecycle hook can be used change settings at runtime.
+
+```csharp
+protected virtual void WorldInitialize() { }
+```
+
+WorldInitialize is called right after the provider is initialized.
+
+```csharp
+protected virtual void WorldAwake() { }
+```
+
+WorldAwake is equivalent to Unity Awake.
+
+```csharp
+protected virtual void WorldStart() { }
+```
+
+WorldStart is equivalent to Unity Start.
+
+```csharp
+protected virtual void WorldUpdate() { }
+```
+
+WorldUpdate is equivalent to Unity Update.
+
+```csharp
+protected virtual void WorldRegionUpdate() { }
+```
+
+WorldRegionUpdate is called every time FocusChunkCoord is updated.
+
+Next we'll look into more ways to configure the engine on a granular level.

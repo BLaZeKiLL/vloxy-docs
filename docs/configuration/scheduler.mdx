@@ -4,12 +4,12 @@ sidebar_position: 5
 
 # Scheduler
 
-Batch size for the IParallelForJob is configurable, defaults settings are good enough for a modern PC, but you may want to
-tweak these settings according too you target device.
-
-:::caution API Changes
-
-Vloxy Engine is under development and API has not been finalized, docs may lag behind and API is subject to change until
-the first stable release
-
-:::
+Scheduler settings are computed at runtime. these include
+- **Meshing batch size** - batch size for chunk mesh generation job.
+```csharp
+Settings.Scheduler.MeshingBatchSize = 2 * Settings.Chunk.DrawDistance + 1;
+```
+- **Streaming batch size** - batch size for chunk data streaming job.
+```csharp
+Settings.Scheduler.StreamingBatchSize = 2 * Settings.Chunk.LoadDistance + 1;
+```
